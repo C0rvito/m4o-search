@@ -11,7 +11,8 @@ from pathlib import Path
 from typing import Any
 
 
-OUTPUT_DIR = Path("outputs")
+# Diretório de saída na raiz do projeto (m4oSearch/outputs)
+OUTPUT_DIR = Path(__file__).resolve().parent.parent.parent / "outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 
@@ -50,7 +51,7 @@ def article_to_bibtex(article: dict[str, Any]) -> str:
     url = article.get("url", "")
     journal = article.get("source", "Unknown")
 
-    lines = [f"@article{{{key},"]
+    lines = [f"@article{{key}},"]
     lines.append(f'  title     = {{{title}}},')
     if authors:
         lines.append(f'  author    = {{{authors}}},')

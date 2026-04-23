@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.flakes/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing / Reports
+tests
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.cache
+htmlcov/
+
+# Playwright
+pw-browser/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Application Specific
+outputs/
+src/outputs/
+src/tui_error.log
+
+# OS
+.DS_Store
+Thumbs.db
