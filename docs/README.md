@@ -17,7 +17,7 @@ Interface TUI no terminal com exportação para `.bib` e `.md`.
 
 ```bash
 # 1. Clonar o repositório e entrar na pasta
-git clone <url-do-repo>
+git clone https://github.com/C0rvito/m4o-search.git
 cd m4oSearch
 
 # 2. Criar e ativar ambiente virtual
